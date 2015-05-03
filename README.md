@@ -29,7 +29,7 @@ Note that the order you do these steps doesn't matter. You could, for example, r
 
 Notes
 -----
->*Max kernel size is approximately 5.5 MB
+>*The maximum kernel size is approximately 5.5 MB
 
 >*This has only been tested on the B+ model. So if anyone has got another model with ethernet port, please inform me if there are any issues with it.
 
