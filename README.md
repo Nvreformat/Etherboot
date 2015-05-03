@@ -14,13 +14,24 @@ Open the file etherbootdefs.h located in the root folder of the project. There y
 You can know your MAC address by typing ifconfig on a terminal and looking for a field called "HWaddr" in the network interface you want to use.
 You can also change the address where your kernel will be placed in the memory.
 
+Then open the Makefile located in kernel/ and change:
+>RASPPI
+
+With your RPi version, and
+
+>PREFIX
+
+With the prefix of your toolchain
+
 Afther this, just run the ./makeall script in the root folder to compile both the kernel and the program
 
 Usage
 ------------------------
 
 Turn on your Raspberry Pi with the Etherboot kernel (And wait until the ethernet leds turn on)
-Run the following command:
+
+Run the following command as root (it needs root access because of the use of raw sockets):
+
 `etherboot /path/to/your/kernel`
 
 And the RPi will shortly load your kernel.
