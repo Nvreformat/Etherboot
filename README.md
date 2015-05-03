@@ -1,6 +1,6 @@
 # Etherboot
 
-Etherboot is an (experimental) bootloader that uses the ethernet port on the RPi B and above for uploading custom kernels at runtime.
+Etherboot is an (experimental) bootloader that uses the ethernet port on the RPi B and above for uploading custom kernels at runtime. It uses the USPi library for the USB driver and some environment components.
 
 It consists on 2 parts. One is the kernel which is executed on the Raspberry Pi, and the other is the Linux program which runs on your machine.
 Once both parties are up and running, the program will upload your kernel to the RPi. Note that this project is still experimental and not all kernels might work. For example, it can't boot the Linux kernel whereas it boots the RiscOS one just fine.
