@@ -23,7 +23,9 @@ With your RPi version, and
 
 With the prefix of your toolchain
 
-Afther this, just run the ./makeall script in the root folder to compile both the kernel and the program
+Afther this, just run the makeall script in the root folder to compile both the kernel and the program.
+
+If everything goes ok, you'll se two files called "kernel.img" and "etherboot" in the root directory.
 
 Usage
 ------------------------
